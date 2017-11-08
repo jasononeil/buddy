@@ -23,7 +23,7 @@ typedef Karma = {
 	} -> Void,
 };
 
-class BuddyKarmaTestReporter extends TraceReporter {
+class KarmaReporter extends TraceReporter {
 	var karmaIsReady: Promise<Karma>;
 	var logs = [];
 	var specResults = [];
